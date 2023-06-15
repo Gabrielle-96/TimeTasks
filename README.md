@@ -1,8 +1,9 @@
-# AluraTracker_cursoVueJs
+# AluraTracker
 
-Desenvolvido Alura Traker - um temporizador de tarefas dinâmicas - Durante a formação de VueJS da Alura
+Desenvolvido o Alura Traker - um temporizador de tarefas dinâmicas - Durante a formação de VueJS da Alura
 
-# Alura Traker
+# Para visitar o site, acesse: 
+https://curso-vue-js.vercel.app/
 
 ## Project setup
 
