@@ -39,10 +39,14 @@ export default defineComponent({
 <style scoped>
 header {
     padding: 1rem;
-    background: #450d66;
+    background: #450d66f8;
     width: 100%;
     height: 100vh;
     text-align: center;
+}
+
+.button {
+    margin-top: 5rem;
 }
 
 @media only screen and (max-width: 768px) {

@@ -7,7 +7,7 @@
       <Formulario @aoSalvarTarefa="salvarTarefa" />
       <div class="lista">
         <Tarefa v-for="(tarefa, index) in tarefas" :key="index" :tarefa="tarefa" />
-        <Box v-if="listaEstaVazia">
+        <Box v-if="listaEstaVazia" class="texto-color">
           Você ainda não registrou sua produtividade hoje :(
         </Box>
       </div>
@@ -60,11 +60,17 @@ export default defineComponent({
 main {
   --bg-primario: #fff;
   --texto-primario: #000;
+  --texto-secundario: #000;
 }
 
 main.modo-escuro {
   --bg-primario: #2b2d42;
   --texto-primario: #ddd;
+  --texto-secundario: #FFF;
+}
+
+.texto-color{
+  color: var(--texto-secundario)
 }
 
 .conteudo {
